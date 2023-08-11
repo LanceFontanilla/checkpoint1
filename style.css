@@ -1,0 +1,36 @@
+:root {
+    --red: #9e3434;
+    --black: #302525;
+    --grey: #544c4c;
+}
+
+
+
+.bgImage {
+    background-image: url(https://images.unsplash.com/photo-1565710545039-46c9a7d22959?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z3JleSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=900&q=60);
+    background-size: cover;
+    height: 50vh;
+
+}
+
+.imgCard {
+    height: 300px;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+
+/* UTILS */
+
+.bg-red {
+    background-color: var(--red);
+}
+
+.bg-grey {
+    background-color: var(--grey);
+}
+
+.text-red {
+    color: var(--red)
+}
