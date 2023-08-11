@@ -4,22 +4,54 @@
     --grey: #544c4c;
 }
 
+.font {
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Ruwudu', serif;
+}
 
 
 .bgImage {
     background-image: url(https://images.unsplash.com/photo-1565710545039-46c9a7d22959?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z3JleSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=900&q=60);
     background-size: cover;
-    height: 50vh;
+
 
 }
 
 .imgCard {
-    height: 300px;
+    height: 400px;
     width: 100%;
     object-fit: contain;
 }
 
+@media(min-width:768px) {
 
+    .listSection {
+        position: relative;
+
+    }
+
+    .list {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        left: 35px;
+    }
+
+}
+
+.reviewCard {
+    text-align: center;
+}
+
+.reviewContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hyperlink {
+    color: var(--red);
+}
 
 /* UTILS */
 
