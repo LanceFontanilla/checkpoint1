@@ -45,12 +45,12 @@
     </header>
 
     <main class="container-fluid">
-        <!-- //SECTION - form with bg image -->
-        <section class="row bgImage">
+        <!-- //SECTION - form with bg image  this is my form section-->
+        <section id="signup" class="row bgImage">
             <div class="col-12 col-md-6 text-light p-5">
                 <h4>Subscribe To My Newsletter</h4>
                 <form class="card p-3">
-                    <div class="text-dark">
+                    <div class="text-red">
                         <h5>Less Subtle Heading</h5>
                     </div>
                     <div class="mb-3">
@@ -69,14 +69,14 @@
                     </div>
                     <div class="mb-3 form-check">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label text-dark" for="exampleCheck1">by checking this box I agree to
+                        <label class="form-check-label text-red" for="exampleCheck1">by checking this box I agree to
                             letting DJ
                             Evo spam my email with tons of random stuff!</label>
                     </div>
                     <button type="submit" class="btn btn-primary bg-red">Submit</button>
                 </form>
             </div>
-            <!-- //!SECTION TEXT OVER IMAGE DISAPPEAR  -->
+            <!-- //!SECTION TEXT OVER IMAGE DISAPPEAR this is where this section disappears in mobile -->
             <div class="col-md-6 d-none d-md-block text-light p-5">
                 <h1>TEXT OVER AN IMAGE</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At magnam rem reiciendis suscipit ex alias
@@ -86,7 +86,7 @@
         </section>
 
         <!-- //SECTION -  CARD OVER SPILL -->
-        <section class="row bg-red text-light ">
+        <section id="whatIdo" class="row bg-red text-light ">
             <div class="col-12 col-md-6 p-5 order-2 order-md-1">
                 <h1>This Is What I Do</h1>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt harum natus animi enim, error labore
@@ -114,7 +114,7 @@
                     src="https://scontent.fboi1-1.fna.fbcdn.net/v/t39.30808-6/293613047_10160329790976660_5682583111454870724_n.jpg?_nc_cat=100&cb=99be929b-59f725be&ccb=1-7&_nc_sid=7f8c78&_nc_ohc=4VHfSQzgpWAAX-I559s&_nc_ht=scontent.fboi1-1.fna&oh=00_AfDCaTbK87lY-cuNNo29hOvR-yiumJz5MOeVijK2IhO-tA&oe=64DB2799"
                     alt="DJ Evo">
             </div>
-            <div class="col-12 col-md-8 p-5">
+            <div id="intro" class="col-12 col-md-8 p-5 text-red p-5 introCard">
                 <h1><span class="mdi mdi-music"></span> Introduction Lorem ipsum dolor sit amet consectetur adipisicing
                     elit. Beatae </h1>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit expedita, architecto reprehenderit odit
@@ -126,9 +126,9 @@
             </div>
         </section>
         <!-- //ANCHOR - 3 reviews section -->
-        <section class="row bg-grey reviewContainer">
-            <div class="col-12 order-2 order-md-1 col-md-4 p-5 ">
-                <div class="bg-light text-dark reviewCard">
+        <section id="reviews" class="row bg-grey reviewContainer p-5">
+            <div class="col-12 order-2 order-md-1 col-md-4 p-4">
+                <div class="bg-light text-red reviewCard p-3">
                     <h1>review 1</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores vitae culpa doloremque adipisci
                         qui.
@@ -136,8 +136,8 @@
                         dignissimos magnam?</p>
                 </div>
             </div>
-            <div class="col-12 order-1 order-md-2 col-md-4 p-5">
-                <div class="bg-light text-dark reviewCard">
+            <div class="col-12 order-1 order-md-2 col-md-4 p-4">
+                <div class="bg-light text-red reviewCard p-3">
                     <h1><span class="mdi mdi-death-star"> </span> <span class="mdi mdi-death-star"> </span> <span
                             class="mdi mdi-death-star"> </span></h1>
                     <h1>3 Death Stars</h1>
@@ -147,8 +147,8 @@
                         dignissimos magnam?</p>
                 </div>
             </div>
-            <div class="col-12 order-3 order-md-3 col-md-4 p-5">
-                <div class="bg-light text-dark reviewCard">
+            <div class="col-12 order-3 order-md-3 col-md-4 p-4">
+                <div class="bg-light text-red reviewCard p-3">
                     <h1>review 3</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores vitae culpa doloremque adipisci
                         qui.
@@ -160,22 +160,20 @@
     </main>
 
     <footer class="container-fluid">
-        <section class="row ">
-            <div class="col-12 bg-red text-light p-4">
+        <section class="row">
+            <div class="col-12 bg-red text-light p-5">
                 <h1>MORE BLAH BLAH BLAH</h1>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde ex architecto veniam ipsum commodi.
                 </p>
             </div>
-            <div class="col-12 text-center p-2">
-                <a class="hyperlink" href="#top">TOP</a>
-                <a class="hyperlink" href="#top">TOP</a>
-                <a class="hyperlink" href="#top">TOP</a>
-                <a class="hyperlink" href="#top">TOP</a>
-                <a class="hyperlink" href="#top">TOP</a>
+            <div class="col-12 text-center p-4">
+                <a class="hyperlink px-3" href="#top">TOP</a>
+                <a class="hyperlink px-3" href="#signup">SIGNUP</a>
+                <a class="hyperlink px-3" href="#whatIdo">WHAT I DO</a>
+                <a class="hyperlink px-3" href="#intro">INTRODUCTION</a>
+                <a class="hyperlink px-3" href="#reviews">REVIEWS</a>
             </div>
         </section>
-
-
     </footer>
 
 </body>
